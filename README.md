@@ -1,4 +1,4 @@
 test-project
 ============
 
-FOR GITHUB TEST
+用于练习github使用
