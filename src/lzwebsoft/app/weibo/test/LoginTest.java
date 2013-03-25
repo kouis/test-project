@@ -43,8 +43,8 @@ public class LoginTest {
 	public static final String REGXP_CHECK_VERIFY = "ptui_checkVC\\('(.*?)','(.*?)','(.*?)'\\)";
 	
 	public static void main(String[] args) throws URISyntaxException {
-		String accountNumber = "751939573";//"1070772010";
-		String accountPassword = "[luo3781110]";//"xu1234";
+		String accountNumber = "1070772010";
+		String accountPassword = "xu1234";
 		
 		HttpClient httpClient = new DefaultHttpClient();
 		String url = MessageFormat.format(CHECK_VERIFY_URL, accountNumber, accountPassword, Math.random());
